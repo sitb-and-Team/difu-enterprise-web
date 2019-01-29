@@ -7824,34 +7824,32 @@ textarea.form-control {
   right: 0;
   margin-right: -50px;
   border-radius: 50%;
-  background: #fb5660;
+  background: #4ECCA3;
   z-index: 100;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  -webkit-animation: pulse 2s infinite;
-  animation: pulse 2s infinite; }
-@media (max-width: 991.98px) {
-  .ftco-section-2 .section-2-blocks-wrapper .button {
-    top: auto;
-    bottom: 0 !important;
-    margin-right: auto;
-    right: auto;
+  transform: translateY(-50%); }
+  @media (max-width: 991.98px) {
+    .ftco-section-2 .section-2-blocks-wrapper .button {
+      top: auto;
+      bottom: 0 !important;
+      margin-right: auto;
+      right: auto;
+      left: 50%;
+      margin-bottom: -50px;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%); } }
+  .ftco-section-2 .section-2-blocks-wrapper .button span {
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    top: 50%;
     left: 50%;
-    margin-bottom: -50px;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%); } }
-.ftco-section-2 .section-2-blocks-wrapper .button span {
-  position: absolute;
-  font-size: 30px;
-  color: #fff;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-30%, -48%);
-  -ms-transform: translate(-30%, -48%);
-  transform: translate(-30%, -48%); }
+    -webkit-transform: translate(-30%, -48%);
+    -ms-transform: translate(-30%, -48%);
+    transform: translate(-30%, -48%); }
 
 .ftco-section-2 .section-2-blocks-wrapper .text {
   position: relative;
@@ -8375,14 +8373,6 @@ textarea.form-control {
   @media (max-width: 767.98px) {
     .block-3 .image {
       height: 300px; } }
-.block-18 .icon > span {
-  font-size: 40px; }
-
-.block-18 .text strong {
-  font-size: 30px; }
-
-.block-18 .text span {
-  display: block; }
 
 .custom-pagination {
   width: 100%;

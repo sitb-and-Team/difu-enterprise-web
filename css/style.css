@@ -7395,10 +7395,15 @@ h1, h2, h3, h4, h5,
       transition: .3s all ease-out; }
     .ftco-navbar-light.scrolled .navbar-brand {
       color: #000; }
+      .ftco-navbar-light.scrolled .navbar-brand span {
+        font-size: 28px; }
 
 .navbar-brand {
   text-transform: uppercase;
   letter-spacing: .1em; }
+
+.navbar-brand span {
+  font-size: 28px; }
 
 .bg-image, .ftco-cover {
   background-size: cover;

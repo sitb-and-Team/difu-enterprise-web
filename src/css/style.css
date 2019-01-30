@@ -1470,12 +1470,12 @@ span.accor-open {
     width: 100%;
     position: relative;
     z-index: 1;
-    height: 500px;
+    height: 280px;
 }
 
 .mosh-cool-facts-area.service-page .counter-area h3,
 .mosh-cool-facts-area.service-page .cool-facts-content p {
-    color: #fff;
+    color: #000;
 }
 
 .skills-text > p {

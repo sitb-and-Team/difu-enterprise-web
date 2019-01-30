@@ -997,9 +997,14 @@ span.accor-open {
     color: #4a7aec;
 }
 
+/* start 底部导航 图标样式,间距 自定义宽度 */
 .footer-single-contact-info .contact-icon {
     margin-right: 15px;
 }
+.footer-single-contact-info .contact-icon img {
+    max-width: none;
+}
+/* end 底部导航 图标样式 */
 
 .footer-bottom-area {
     background-color: #191426;

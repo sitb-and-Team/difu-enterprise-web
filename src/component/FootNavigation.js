@@ -42,30 +42,13 @@ function footNavigationInnerHTML() {
         '                <div class="col-12 col-sm-6 col-lg-2">\n' +
         '                    <div class="single-footer-widget mb-100">\n' +
         '                        <h5>公司情况</h5>\n' +
-        '                        <div class="footer-single--blog-post">\n' +
-        '                            <a href="#" class="blog-post-date">\n' +
-        '                                <p>关于我们</p>\n' +
-        '                            </a>\n' +
-        '                            <a href="#" class="blog-post-title">\n' +
-        '                                <h6>联系我们</h6>\n' +
-        '                            </a>\n' +
-        '                        </div>\n' +
-        '                        <div class="footer-single--blog-post">\n' +
-        '                            <a href="#" class="blog-post-date">\n' +
-        '                                <p>招聘</p>\n' +
-        '                            </a>\n' +
-        '                            <a href="#" class="blog-post-title">\n' +
-        '                                <h6>合作</h6>\n' +
-        '                            </a>\n' +
-        '                        </div>\n' +
-        '                        <div class="footer-single--blog-post">\n' +
-        '                            <a href="#" class="blog-post-date">\n' +
-        '                                <p>免责条款</p>\n' +
-        '                            </a>\n' +
-        '                            <a href="#" class="blog-post-title">\n' +
-        '                                <h6>帮助中心</h6>\n' +
-        '                            </a>\n' +
-        '                        </div>\n' +
+        '                        <ul>\n' +
+        '                            <li><a href="#">关于我们</a></li>\n' +
+        '                            <li><a href="#">联系我们</a></li>\n' +
+        '                            <li><a href="#">招聘</a></li>\n' +
+        '                            <li><a href="#">合作</a></li>\n' +
+        '                            <li><a href="#">免责条款</a></li>\n' +
+        '                        </ul>\n' +
         '                    </div>\n' +
         '                </div>\n' +
         '                <div class="col-12 col-sm-6 col-lg-2">\n' +

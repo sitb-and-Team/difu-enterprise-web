@@ -27,22 +27,20 @@ function menuInnerHTML() {
         '                                    <div class="dropdown-menu" aria-labelledby="moshDropdown">\n' +
         '                                        <a class="dropdown-item" href="index.html">首页</a>\n' +
         '                                        <a class="dropdown-item" href="about.html">企业介绍</a>\n' +
-        '                                        <a class="dropdown-item" href="services.html">产品介绍</a>\n' +
-        '                                        <a class="dropdown-item" href="portfolio.html">行业解决方案</a>\n' +
+        '                                        <a class="dropdown-item" href="portfolio.html">产品介绍</a>\n' +
+        '                                        <a class="dropdown-item" href="industrySolution.html">行业解决方案</a>\n' +
         '                                        <a class="dropdown-item" href="pricing.html">产品定价</a>\n' +
-        '                                        <a class="dropdown-item" href="portfolio.html">开发者中心</a>\n' +
+        '                                        <a class="dropdown-item" href="Elements.html">开发者中心</a>\n' +
         '                                        <a class="dropdown-item" href="blog.html">帮助中心</a>\n' +
         '                                        <a class="dropdown-item" href="blog.html">论坛</a>\n' +
         '                                        <a class="dropdown-item" href="contact.html">反馈</a>\n' +
-        '                                        <div class="dropdown-divider"></div>\n' +
-        '                                        <a class="dropdown-item" href="elements.html">Elements</a>\n' +
         '                                    </div>\n' +
         '                                </li>\n' +
         '                                <li class="nav-item"><a class="nav-link" href="about.html">企业介绍</a></li>\n' +
-        '                                <li class="nav-item"><a class="nav-link" href="services.html">产品介绍</a></li>\n' +
-        '                                <li class="nav-item"><a class="nav-link" href="portfolio.html">行业解决方案</a></li>\n' +
+        '                                <li class="nav-item"><a class="nav-link" href="portfolio.html">产品介绍</a></li>\n' +
+        '                                <li class="nav-item"><a class="nav-link" href="industrySolution.html">行业解决方案</a></li>\n' +
         '                                <li class="nav-item"><a class="nav-link" href="pricing.html">产品定价</a></li>\n' +
-        '                                <li class="nav-item"><a class="nav-link" href="portfolio.html">开发者中心</a></li>\n' +
+        '                                <li class="nav-item"><a class="nav-link" href="Elements.html">开发者中心</a></li>\n' +
         '                                <li class="nav-item"><a class="nav-link" href="blog.html">帮助中心</a></li>\n' +
         '                                <li class="nav-item"><a class="nav-link" href="blog.html">论坛</a></li>\n' +
         '                                <li class="nav-item"><a class="nav-link" href="contact.html">反馈</a></li>\n' +

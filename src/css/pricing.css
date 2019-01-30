@@ -1,6 +1,3 @@
-.ftco-section {
-    padding: 7em 0;
-}
 
 .bg-image, .ftco-cover {
     background-size: cover;
@@ -11,7 +8,7 @@
     background-position: center center;
 }
 
-.bg-image, .ftco-cover {
+.ftco-cover {
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -106,11 +103,12 @@
 @media (min-width: 768px) {
     .block-7 {
         padding: 40px;
+        height: 56vh;
     }
 }
 
 .block-7 .heading {
-    font-size: 50px;
+    font-size: 48px;
     line-height: 1;
     margin: 0;
     padding: 0;
@@ -134,7 +132,7 @@
 }
 
 .block-7 .price .number {
-    font-size: 80px;
+    font-size: 64px;
 }
 
 .block-7 .excerpt {

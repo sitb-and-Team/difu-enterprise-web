@@ -81,3 +81,51 @@
 .block-5:hover .text .heading, .block-5:hover .text .subheading, .block-5:hover .text .post-meta, .block-5:focus .text .heading, .block-5:focus .text .subheading, .block-5:focus .text .post-meta {
     color: #000; }
 
+/* start jquery owlCarousel 小圆点的样式  */
+.ftco-owl {
+    position: relative;
+    z-index: 1; }
+.ftco-owl .owl-nav {
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    z-index: 10;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease; }
+.ftco-owl .owl-nav .owl-prev,
+.ftco-owl .owl-nav .owl-next {
+    position: absolute;
+    font-size: 30px;
+    background: #fb5660;
+    color: #fff;
+    padding: 10px;
+    line-height: 0; }
+.ftco-owl .owl-nav .owl-prev {
+    left: 0; }
+.ftco-owl .owl-nav .owl-next {
+    right: 0; }
+.ftco-owl .owl-dots {
+    position: relative;
+    text-align: center;
+    margin-top: 30px; }
+.ftco-owl .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1; }
+.ftco-owl .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    background: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 5px 7px; }
+.ftco-owl .owl-dots .owl-dot.active span {
+    background: #fb5660; }
+.ftco-owl:hover .owl-nav {
+    visibility: visible;
+    opacity: 1; }
+/* end jquery owlCarousel 小圆点的样式  */

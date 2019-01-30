@@ -21,6 +21,7 @@
     <link href="src/css/responsive.css" rel="stylesheet">
     <script src="src/utils/template.js"></script>
     <script src="src/component/Menu.js"></script>
+    <script src="src/component/FootNavigation.js"></script>
 </head>
 
 <body>
@@ -400,135 +401,16 @@
 <!-- ***** CTA Area End ***** -->
 
 <!-- ***** Footer Area Start ***** -->
-<footer class="footer-area clearfix">
-    <!-- Top Fotter Area -->
-    <div class="top-footer-area section_padding_100_0">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-6 col-lg-2">
-                    <div class="single-footer-widget mb-100">
-                        <a href="#" class="mb-50 d-block"><img src="src/img/core-img/logo.png" alt=""></a>
-                        <p>我们有最好的产品和专业的销售和技术团队，在公司发展壮大的1年里，我们为客户提供最好的产品、良好的技术支持、健全的售后服务。</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-2">
-                    <div class="single-footer-widget mb-100">
-                        <h5>产品列表</h5>
-                        <ul>
-                            <li><a href="#">账户管理</a></li>
-                            <li><a href="#">购物指南</a></li>
-                            <li><a href="#">订单操作</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-2">
-                    <div class="single-footer-widget mb-100">
-                        <h5>文档&技术支持</h5>
-                        <ul>
-                            <li><a href="#">开发者中心</a></li>
-                            <li><a href="#">开发指南</a></li>
-                            <li><a href="#">接口&技术文档</a></li>
-                            <li><a href="#">下载</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-2">
-                    <div class="single-footer-widget mb-100">
-                        <h5>公司情况</h5>
-                        <div class="footer-single--blog-post">
-                            <a href="#" class="blog-post-date">
-                                <p>关于我们</p>
-                            </a>
-                            <a href="#" class="blog-post-title">
-                                <h6>联系我们</h6>
-                            </a>
-                        </div>
-                        <div class="footer-single--blog-post">
-                            <a href="#" class="blog-post-date">
-                                <p>招聘</p>
-                            </a>
-                            <a href="#" class="blog-post-title">
-                                <h6>合作</h6>
-                            </a>
-                        </div>
-                        <div class="footer-single--blog-post">
-                            <a href="#" class="blog-post-date">
-                                <p>免责条款</p>
-                            </a>
-                            <a href="#" class="blog-post-title">
-                                <h6>帮助中心</h6>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-2">
-                    <div class="single-footer-widget mb-100">
-                        <h5>帮助中心</h5>
-                        <ul>
-                            <li><a href="#">搜索</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-lg-2">
-                    <div class="single-footer-widget mb-100">
-                        <h5>联系我们</h5>
-                        <div class="footer-single-contact-info d-flex">
-                            <div class="contact-icon">
-                                <img src="src/img/core-img/map.png" alt="">
-                            </div>
-                            <p>上海市 浦东新区 芳华路 陆家嘴互联网创新基地 A栋139号101室</p>
-                        </div>
-                        <div class="footer-single-contact-info d-flex">
-                            <div class="contact-icon">
-                                <img src="src/img/core-img/call.png" alt="">
-                            </div>
-                            <p>400-059-1990</p>
-                        </div>
-                        <div class="footer-single-contact-info d-flex">
-                            <div class="contact-icon">
-                                <img src="src/img/core-img/message.png" alt="">
-                            </div>
-                            <p>hjf@shangfudata.com</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Fotter Bottom Area -->
-    <div class="footer-bottom-area">
-        <div class="container h-100">
-            <div class="row h-100">
-                <div class="col-12 h-100">
-                    <div class="footer-bottom-content h-100 d-md-flex justify-content-between align-items-center">
-                        <div class="copyright-text">
-                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;<script>document.write(new Date().getFullYear());</script>
-                                Smartisan Digital Co., Ltd. All Rights Reserved. 上海迪付金融有限公司
-                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            </p>
-                        </div>
-                        <div class="footer-social-info">
-                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+<div id="footer"></div>
 <!-- ***** Footer Area End ***** -->
 <!-- jQuery-2.2.4 js -->
 <script src="src/js/jquery-2.2.4.min.js"></script>
+<!-- SELF STYLE js -->
 <script>
     $('#header').html(MenuTemplate());
+    $('#footer').html(FootNavigationTemplate());
 </script>
-
+<!-- SELF STYLE js -->
 <!-- Popper js -->
 <script src="src/js/popper.min.js"></script>
 <!-- Bootstrap js -->

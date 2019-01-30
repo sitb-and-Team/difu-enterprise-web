@@ -718,6 +718,7 @@ img {
 
 .single_gallery_item {
     width: 25%;
+    padding: 10px;
     display: inline-block;
     float: left;
     z-index: 3;

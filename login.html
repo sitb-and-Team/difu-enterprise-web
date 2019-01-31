@@ -20,13 +20,20 @@
     <!-- Responsive CSS -->
     <link href="src/css/responsive.css" rel="stylesheet">
     <link href="src/css/login.css" rel="stylesheet">
+    <script src="src/utils/template.js"></script>
+    <script src="src/component/Menu.js"></script>
 </head>
 
 <body>
+
 <!-- ***** Preloader Start ***** -->
 <div id="preloader">
     <div class="mosh-preloader"></div>
 </div>
+
+<!-- ***** Header Area Start ***** -->
+<div id="header"></div>
+<!-- ***** Header Area End ***** -->
 
 <!-- ***** login Area Start ***** -->
 <div class="limiter">
@@ -39,15 +46,15 @@
                 John Doe
             </span>
             <form class="login100-form validate-form">
-                <div class="wrap-input100 validate-input m-b-10" data-validate="请输入用户名">
-                    <input class="input100" type="text" name="username" placeholder="用户名">
+                <div class="wrap-input100 validate-input m-b-10" data-validate="请输入手机号">
+                    <input class="input100" type="text" name="number" placeholder="手机号">
                     <span class="focus-input100"></span>
                     <span class="symbol-input100">
-							<i class="fa fa-user"></i>
+							<i class="fa fa-phone"></i>
                     </span>
                 </div>
                 <div class="wrap-input100 validate-input m-b-10" data-validate="请输入密码">
-                    <input class="input100" type="password" name="pass" placeholder="密码">
+                    <input class="input100 register-pwd" type="password" name="pass" placeholder="密码">
                     <span class="focus-input100"></span>
                     <span class="symbol-input100">
 							<i class="fa fa-lock"></i>
@@ -71,6 +78,13 @@
                 </div>
             </form>
             <form class="login100-form register-form">
+                <div class="wrap-input100 validate-input m-b-10" data-validate="请输入手机号">
+                    <input class="input100" type="text" name="number" placeholder="手机号">
+                    <span class="focus-input100"></span>
+                    <span class="symbol-input100">
+							<i class="fa fa-phone"></i>
+                    </span>
+                </div>
                 <div class="wrap-input100 validate-input m-b-10" data-validate="请输入用户名">
                     <input class="input100" type="text" name="username" placeholder="用户名">
                     <span class="focus-input100"></span>
@@ -79,14 +93,14 @@
                     </span>
                 </div>
                 <div class="wrap-input100 validate-input m-b-10" data-validate="请输入密码">
-                    <input class="input100" type="password" name="pass" placeholder="密码">
+                    <input class="input100 register-pwd" type="password" name="pass" placeholder="密码">
                     <span class="focus-input100"></span>
                     <span class="symbol-input100">
 							<i class="fa fa-lock"></i>
                     </span>
                 </div>
                 <div class="wrap-input100 validate-input m-b-10" data-validate="请确认密码">
-                    <input class="input100" type="password" name="password" placeholder="确认密码">
+                    <input class="input100 register-rePwd" type="password" name="password" placeholder="确认密码">
                     <span class="focus-input100"></span>
                     <span class="symbol-input100">
                         <i class="fa fa-lock"></i>

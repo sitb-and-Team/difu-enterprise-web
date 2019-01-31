@@ -1,5 +1,4 @@
 /* [Master Stylesheet] */
-
 /* ------------------------------------------------
 :: Template Name: Mosh - Creative Business Template
 :: Template Author: Colorlib
@@ -9,9 +8,7 @@
 :: Version: v1.0.0
 :: Created: 01/02/2018
 ------------------------------------------------ */
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
-
 @import 'bootstrap.min.css';
 @import 'owl.carousel.min.css';
 @import 'animate.css';
@@ -787,8 +784,8 @@ img {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 47px;
     flex: 0 0 47px;
-    width: 47px!important;
-    height: 47px!important;
+    width: 47px !important;
+    height: 47px !important;
     text-align: center;
     background-color: #f3f5f9;
     line-height: 47px;
@@ -942,7 +939,7 @@ span.accor-open {
 
 .single-footer-widget ul > li > a {
     color: rgba(226, 219, 243, 0.30);
-    margin-bottom: 10px!important;
+    margin-bottom: 10px !important;
     display: block;
     font-weight: 500;
 }
@@ -1002,9 +999,11 @@ span.accor-open {
 .footer-single-contact-info .contact-icon {
     margin-right: 15px;
 }
+
 .footer-single-contact-info .contact-icon img {
     max-width: none;
 }
+
 /* end 底部导航 图标样式 */
 
 .footer-bottom-area {
@@ -1730,6 +1729,14 @@ span.accor-open {
 .mosh-cool-facts-area .cool-facts-content > p {
     color: #292d4f;
 }
+
+/* start  自定义行业解决方案样式*/
+.custom-mosh-portfolio {
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* end  自定义行业解决方案样式*/
 
 /* --------------------------------
 ============= The End =============

@@ -48,7 +48,7 @@ function menuInnerHTML() {
         '                            <!-- Search Form Area Start -->\n' +
         '                            <div class="search-form-area animated">\n' +
         '                                <form action="#" method="post">\n' +
-        '                                    <input type="search" name="search" id="search" placeholder="Type keywords &amp; hit enter">\n' +
+        '                                    <input type="search" name="search" id="search" placeholder="请搜索...">\n' +
         '                                    <button type="submit" class="d-none"><img src="src/img/core-img/search-icon.png" alt="Search"></button>\n' +
         '                                </form>\n' +
         '                            </div>\n' +
@@ -58,8 +58,8 @@ function menuInnerHTML() {
         '                            </div>\n' +
         '                            <!-- Login/Register btn -->\n' +
         '                            <div class="login-register-btn">\n' +
-        '                                <a href="#">登录</a>\n' +
-        '                                <a href="#">/ 重置密码</a>\n' +
+        '                                <a href="login.html">登录</a>\n' +
+        '                                <a href="login.html">/ 重置密码</a>\n' +
         '                            </div>\n' +
         '                        </div>\n' +
         '                    </nav>\n' +

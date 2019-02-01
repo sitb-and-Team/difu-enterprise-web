@@ -257,7 +257,7 @@ img {
     font-size: 24px;
     right: 30px;
     width: 40px;
-    background: #4a7aec;
+    background: #333;
     color: #fff;
     text-align: center;
     height: 40px;
@@ -380,7 +380,7 @@ img {
 .menu_area #nav .nav-link {
     color: #fff;
     display: block;
-    font-size: 15px;
+    font-size: 13px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
     padding: 0 15px;
@@ -405,6 +405,7 @@ img {
 
 .login-register-btn a {
     color: #4a7aec;
+    font-size: 13px;
     display: inline-block;
     font-weight: 500;
 }
@@ -456,7 +457,7 @@ img {
 /* Sticky CSS */
 
 .header_area.sticky {
-    background-color: #25499f;
+    background-color: #232323;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
     height: 80px;
     position: fixed;
@@ -929,7 +930,7 @@ span.accor-open {
 .footer-area {
     position: relative;
     z-index: 1;
-    background-color: #211b31;
+    background-color: #212227;
 }
 
 .single-footer-widget h5 {
@@ -1007,7 +1008,7 @@ span.accor-open {
 /* end 底部导航 图标样式 */
 
 .footer-bottom-area {
-    background-color: #191426;
+    background-color: #192026;
     height: 60px;
 }
 
@@ -1027,7 +1028,7 @@ span.accor-open {
 
 .bradcumbContent h2 {
     color: #fff;
-    font-size: 60px;
+    font-size: 42px;
 }
 
 .bradcumbContent .breadcrumb {
@@ -1040,7 +1041,7 @@ span.accor-open {
 .bradcumbContent .breadcrumb-item a,
 .bradcumbContent .breadcrumb-item {
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -1740,6 +1741,15 @@ span.accor-open {
 }
 
 /* end  自定义行业解决方案样式*/
+
+/* start 自定义footer样式*/
+.footer-area p, .footer-area a {
+    font-size: 13px;
+}
+.footer-area h5 {
+    font-size: 14px;
+}
+/* end 自定义footer样式*/
 
 /* --------------------------------
 ============= The End =============

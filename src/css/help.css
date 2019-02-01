@@ -1,17 +1,24 @@
 .search-form {
     background: #f7f7f7;
-    padding: 10px; }
+    padding: 10px;
+}
+
 .search-form .form-group {
-    position: relative; }
+    position: relative;
+}
+
 .search-form .form-group input {
-    padding-right: 50px; }
+    padding-right: 50px;
+}
+
 .search-form .icon {
     position: absolute;
     top: 50%;
     right: 20px;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+}
 
 .sidebar-box {
     margin-bottom: 30px;
@@ -19,36 +26,53 @@
     font-size: 15px;
     width: 100%;
     float: left;
-    background: #fff; }
+    background: #fff;
+}
+
 .sidebar-box *:last-child {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+}
+
 .sidebar-box h3 {
     font-size: 18px;
-    margin-bottom: 15px; }
+    margin-bottom: 15px;
+}
 
 .categories li, .sidelink li {
     position: relative;
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px dotted #dee2e6;
-    list-style: none; }
+    list-style: none;
+}
+
 .categories li:last-child, .sidelink li:last-child {
     margin-bottom: 0;
     border-bottom: none;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+}
+
 .categories li a, .sidelink li a {
-    display: block; }
+    display: block;
+}
+
 .categories li a span, .sidelink li a span {
     position: absolute;
     right: 0;
     top: 0;
-    color: #ccc; }
+    color: #ccc;
+}
+
 .categories li.active a, .sidelink li.active a {
     color: #000;
-    font-style: italic; }
+    font-style: italic;
+}
+
 .img-fluid {
     max-width: 100%;
-    height: auto; }
+    height: auto;
+}
+
 .tagcloud a {
     text-transform: uppercase;
     display: inline-block;
@@ -58,16 +82,21 @@
     border-radius: 4px;
     color: #000;
     border: 1px solid #ccc;
-    font-size: 11px; }
+    font-size: 11px;
+}
+
 .tagcloud a:hover {
-    border: 1px solid #000; }
-.question .anwser{
+    border: 1px solid #000;
+}
+
+.question .anwser {
     display: none;
     margin: 10px;
     padding: 10px;
     border: 1px solid #999;
     border-radius: 5px;
 }
-.question .anwser.active{
+
+.question .anwser.active {
     display: block;
 }

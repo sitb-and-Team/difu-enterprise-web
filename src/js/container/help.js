@@ -1,5 +1,5 @@
 $(function(){
-    $('.question h5').click(function(){
+    $('.question h6').click(function(){
         var $this = $(this);
         var $index = $this.index();
         var $anwser = $('.question .anwser').eq($index / 2);

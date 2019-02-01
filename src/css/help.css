@@ -97,6 +97,9 @@
     border-radius: 5px;
 }
 
+.question h6 {
+    cursor: pointer;
+}
 .question .anwser.active {
     display: block;
 }

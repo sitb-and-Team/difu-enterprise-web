@@ -22,20 +22,6 @@ function menuInnerHTML() {
         '                        <div class="collapse navbar-collapse justify-content-end" id="mosh-navbar">\n' +
         '                            <ul class="navbar-nav animated" id="nav">\n' +
         '                                <li class="nav-item"><a class="nav-link index active" href="index.html">首页</a></li>\n' +
-        '                                <li class="nav-item dropdown">\n' +
-        '                                    <a class="nav-link dropdown-toggle" href="#" id="moshDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>\n' +
-        '                                    <div class="dropdown-menu" aria-labelledby="moshDropdown">\n' +
-        '                                        <a class="dropdown-item" href="index.html">首页</a>\n' +
-        '                                        <a class="dropdown-item" href="about.html">企业介绍</a>\n' +
-        '                                        <a class="dropdown-item" href="products.html">产品介绍</a>\n' +
-        '                                        <a class="dropdown-item" href="industrySolution.html">行业解决方案</a>\n' +
-        '                                        <a class="dropdown-item" href="pricing.html">产品定价</a>\n' +
-        '                                        <a class="dropdown-item" href="developer.html">开发者中心</a>\n' +
-        '                                        <a class="dropdown-item" href="help.html">帮助中心</a>\n' +
-        '                                        <a class="dropdown-item" href="blog.html">论坛</a>\n' +
-        '                                        <a class="dropdown-item" href="contact.html">反馈</a>\n' +
-        '                                    </div>\n' +
-        '                                </li>\n' +
         '                                <li class="nav-item"><a class="nav-link" href="about.html">企业介绍</a></li>\n' +
         '                                <li class="nav-item"><a class="nav-link" href="products.html">产品介绍</a></li>\n' +
         '                                <li class="nav-item"><a class="nav-link" href="industrySolution.html">行业解决方案</a></li>\n' +

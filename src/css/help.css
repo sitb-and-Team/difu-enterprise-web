@@ -100,3 +100,8 @@
 .question .anwser.active {
     display: block;
 }
+
+.sidebar-box p,
+.anwser{
+    text-indent: 2em
+}

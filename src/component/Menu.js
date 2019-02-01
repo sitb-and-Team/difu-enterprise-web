@@ -21,7 +21,7 @@ function menuInnerHTML() {
         '\n' +
         '                        <div class="collapse navbar-collapse justify-content-end" id="mosh-navbar">\n' +
         '                            <ul class="navbar-nav animated" id="nav">\n' +
-        '                                <li class="nav-item active"><a class="nav-link" href="index.html">首页</a></li>\n' +
+        '                                <li class="nav-item"><a class="nav-link index active" href="index.html">首页</a></li>\n' +
         '                                <li class="nav-item dropdown">\n' +
         '                                    <a class="nav-link dropdown-toggle" href="#" id="moshDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>\n' +
         '                                    <div class="dropdown-menu" aria-labelledby="moshDropdown">\n' +
@@ -36,7 +36,7 @@ function menuInnerHTML() {
         '                                        <a class="dropdown-item" href="contact.html">反馈</a>\n' +
         '                                    </div>\n' +
         '                                </li>\n' +
-        '                                <li class="nav-item oj"><a class="nav-link" href="about.html">企业介绍</a></li>\n' +
+        '                                <li class="nav-item"><a class="nav-link" href="about.html">企业介绍</a></li>\n' +
         '                                <li class="nav-item"><a class="nav-link" href="products.html">产品介绍</a></li>\n' +
         '                                <li class="nav-item"><a class="nav-link" href="industrySolution.html">行业解决方案</a></li>\n' +
         '                                <li class="nav-item"><a class="nav-link" href="pricing.html">产品定价</a></li>\n' +
@@ -69,6 +69,20 @@ function menuInnerHTML() {
         '    </div>\n' +
         '</header>\n';
 }
+$(function(){
+    var $nowHref = window.location.href.split('/').pop();
+    $('.nav-link').each(function(){
+        var $this = $(this);
+        var $thisHref = $this.attr('href');
+        if ($thisHref === $nowHref){
+            $this.addClass('active');
+            $this.siblings('.nav-item').removeClass('active');
+            if ($thisHref != 'index.html') {
+                $('.nav-item .index').removeClass('active')
+            }
+        }
+    });
+});
 
 /**
  * 导出menu模版

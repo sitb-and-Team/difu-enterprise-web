@@ -408,6 +408,7 @@ img {
     font-size: 13px;
     display: inline-block;
     font-weight: 500;
+    margin-left: 50px;
 }
 
 .login-register-btn a:hover {

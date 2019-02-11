@@ -31,21 +31,9 @@ function menuInnerHTML() {
         '                                <li class="nav-item"><a class="nav-link" href="blog.html">论坛</a></li>\n' +
         '                                <li class="nav-item"><a class="nav-link" href="contact.html">反馈</a></li>\n' +
         '                            </ul>\n' +
-        '                            <!-- Search Form Area Start -->\n' +
-        '                            <div class="search-form-area animated">\n' +
-        '                                <form action="#" method="post">\n' +
-        '                                    <input type="search" name="search" id="search" placeholder="请搜索...">\n' +
-        '                                    <button type="submit" class="d-none"><img src="src/img/core-img/search-icon.png" alt="Search"></button>\n' +
-        '                                </form>\n' +
-        '                            </div>\n' +
-        '                            <!-- Search btn -->\n' +
-        '                            <div class="search-button">\n' +
-        '                                <a href="#" id="search-btn"><img src="src/img/core-img/search-icon.png" alt="Search"></a>\n' +
-        '                            </div>\n' +
         '                            <!-- Login/Register btn -->\n' +
         '                            <div class="login-register-btn">\n' +
         '                                <a href="login.html">登录</a>\n' +
-        '                                <a href="login.html">/ 重置密码</a>\n' +
         '                            </div>\n' +
         '                        </div>\n' +
         '                    </nav>\n' +
@@ -55,12 +43,13 @@ function menuInnerHTML() {
         '    </div>\n' +
         '</header>\n';
 }
-$(function(){
+
+$(function () {
     var $nowHref = window.location.href.split('/').pop();
-    $('.nav-link').each(function(){
+    $('.nav-link').each(function () {
         var $this = $(this);
         var $thisHref = $this.attr('href');
-        if ($thisHref === $nowHref){
+        if ($thisHref === $nowHref) {
             $this.addClass('active');
             $this.siblings('.nav-item').removeClass('active');
             if ($thisHref != 'index.html') {

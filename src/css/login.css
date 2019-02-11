@@ -556,6 +556,7 @@ iframe {
     cursor: pointer;
 }
 
-.form .register-form {
+.form .register-form,
+.form .reset-form{
     display: none;
 }

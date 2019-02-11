@@ -378,7 +378,7 @@ img {
 }
 
 .menu_area #nav .nav-link {
-    color: #fff;
+    color: #abadbe;
     display: block;
     font-size: 13px;
     -webkit-transition-duration: 500ms;
@@ -400,11 +400,11 @@ img {
 .menu_area #nav .nav-link:hover,
 .menu_area #nav .nav-item .nav-link.active,
 .menu_area .dropdown-item:hover {
-    color: #4a7aec;
+    color: #fff;
 }
 
 .login-register-btn a {
-    color: #4a7aec;
+    color: rgba(226, 219, 243, 0.30);
     font-size: 13px;
     display: inline-block;
     font-weight: 500;

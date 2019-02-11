@@ -97,14 +97,6 @@ function footNavigationInnerHTML() {
         '                                <!-- Link back to Colorlib can\'t be removed. Template is licensed under CC BY 3.0. -->\n' +
         '                            </p>\n' +
         '                        </div>\n' +
-        '                        <div class="footer-social-info">\n' +
-        '                            <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>\n' +
-        '                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>\n' +
-        '                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>\n' +
-        '                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>\n' +
-        '                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>\n' +
-        '                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>\n' +
-        '                        </div>\n' +
         '                    </div>\n' +
         '                </div>\n' +
         '            </div>\n' +
